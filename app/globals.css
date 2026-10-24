@@ -23,6 +23,21 @@ button, a, summary { -webkit-tap-highlight-color: transparent; }
 ::selection { background: var(--brass); color: var(--paper); }
 
 .site-shell { position: relative; width: 100%; overflow: clip; background: var(--paper); }
+.hod-site {
+  --paper: #f5f1e8;
+  --parchment: #e6ddcd;
+  --stone: #c8b99d;
+  --oat: #b59a6a;
+  --sage: #817255;
+  --moss: #715d3d;
+  --forest: #302820;
+  --brass: #b18b4f;
+  --walnut: #453327;
+  --ink: #29241e;
+  --muted: #777064;
+}
+.hod-site .site-header { background: rgb(245 241 232 / 92%); box-shadow: 0 12px 30px rgb(48 40 32 / 7%); }
+.hod-site .polaroid-carousel { background: #e8dfd0; }
 .site-header { position: sticky; z-index: 40; top: 0; display: flex; min-height: 88px; align-items: center; justify-content: space-between; gap: 24px; background: rgb(244 240 230 / 91%); box-shadow: 0 12px 30px rgb(38 60 50 / 7%); backdrop-filter: blur(16px); }
 .brand-lockup { display: flex; align-items: center; gap: 13px; flex: 0 0 auto; }
 .brand-lockup img { width: 192px; height: auto; }

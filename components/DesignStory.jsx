@@ -25,7 +25,7 @@ const studies = [
   },
 ];
 
-export default function DesignStory({ brandLabel = "ALLURE · YAMUNANAGAR", tagline = <>Thoughtful<br />by nature.</> }) {
+export default function DesignStory({ brandLabel = "ALLURE · YAMUNANAGAR", tagline = <>Thoughtful<br />by nature.</>, paletteLabel = "A STUDY IN FOREST & PARCHMENT" }) {
   return (
     <section className="design-story-section" id="story" aria-labelledby="story-title">
       <div className="design-story-inner px-5 sm:px-8 lg:px-12">
@@ -50,7 +50,7 @@ export default function DesignStory({ brandLabel = "ALLURE · YAMUNANAGAR", tagl
               </article>
             </Reveal>
           ))}
-          <span className="story-pointer-note" aria-hidden="true">A STUDY IN FOREST &amp; PARCHMENT</span>
+          <span className="story-pointer-note" aria-hidden="true">{paletteLabel}</span>
         </div>
         <div className="design-story-foot"><span>ILLUSTRATIVE CONCEPT IMAGERY</span><span>01 — 03 / SPACES, REIMAGINED</span></div>
       </div>

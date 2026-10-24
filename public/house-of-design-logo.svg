@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 160" fill="none">
+  <g fill="#B18B4F">
+    <path d="M28 119V45h13l46 49V45h15v74H89L43 70v49H28Z"/>
+    <path d="M121 119V45h15v74h-15Z"/>
+    <path d="M154 82c0-23 17-39 40-39s40 16 40 39-17 39-40 39-40-16-40-39Zm64 0c0-15-10-25-24-25s-24 10-24 25 10 25 24 25 24-10 24-25Z"/>
+    <path d="M251 119V45h15v60h39v14h-54Z"/>
+    <path d="M319 119V45h15v60h39v14h-54Z"/>
+    <path d="M386 119V45h15v74h-15Z"/>
+    <path d="M419 119V45h31c22 0 36 14 36 37s-14 37-36 37h-31Zm15-14h15c13 0 21-8 21-23s-8-23-21-23h-15v46Z"/>
+  </g>
+  <path d="M48 34 103 10l56 24" stroke="#B18B4F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M103 10v20" stroke="#B18B4F" stroke-width="4" stroke-linecap="round"/>
+  <path d="M186 136h308" stroke="#B18B4F" stroke-width="1.5" opacity=".75"/>
+  <text x="340" y="78" fill="#F5F1E8" font-family="Georgia,serif" font-size="17" font-weight="600" letter-spacing="4" text-anchor="middle">HOUSE OF DESIGN</text>
+  <text x="340" y="154" fill="#715D3D" font-family="Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="4" text-anchor="middle">BY SARTHAK JALHOTRA · INTERIORS · ARCHITECTURE · PLANNING</text>
+</svg>
