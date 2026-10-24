@@ -25,7 +25,7 @@ const studies = [
   },
 ];
 
-export default function DesignStory() {
+export default function DesignStory({ brandLabel = "ALLURE · YAMUNANAGAR", tagline = <>Thoughtful<br />by nature.</> }) {
   return (
     <section className="design-story-section" id="story" aria-labelledby="story-title">
       <div className="design-story-inner px-5 sm:px-8 lg:px-12">
@@ -38,8 +38,8 @@ export default function DesignStory() {
           <span className="story-orbit story-orbit-one" aria-hidden="true" />
           <span className="story-orbit story-orbit-two" aria-hidden="true" />
           <div className="story-anchor">
-            <span>ALLURE · YAMUNANAGAR</span>
-            <strong>Thoughtful<br />by nature.</strong>
+            <span>{brandLabel}</span>
+            <strong>{tagline}</strong>
             <i aria-hidden="true">A.</i>
           </div>
           {studies.map((study, index) => (
